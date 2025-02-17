@@ -1,0 +1,160 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "price": 25.99,
+        "category": "Electronics",
+        "description": "Ergonomic wireless mouse with adjustable DPI."
+      },
+      {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "price": 89.99,
+        "category": "Electronics",
+        "description": "RGB backlit mechanical keyboard with blue switches."
+      },
+      {
+        "id": 3,
+        "name": "Bluetooth Headphones",
+        "price": 59.99,
+        "category": "Electronics",
+        "description": "Noise-cancelling Bluetooth headphones with 20-hour battery life."
+      },
+      {
+        "id": 4,
+        "name": "Smart Watch",
+        "price": 149.99,
+        "category": "Electronics",
+        "description": "Fitness tracker with heart rate monitor and GPS."
+      },
+      {
+        "id": 5,
+        "name": "4K Monitor",
+        "price": 299.99,
+        "category": "Electronics",
+        "description": "27-inch 4K UHD monitor with HDR support."
+      },
+      {
+        "id": 6,
+        "name": "Gaming Chair",
+        "price": 199.99,
+        "category": "Furniture",
+        "description": "Ergonomic gaming chair with lumbar support."
+      },
+      {
+        "id": 7,
+        "name": "Desk Lamp",
+        "price": 39.99,
+        "category": "Furniture",
+        "description": "Adjustable LED desk lamp with touch controls."
+      },
+      {
+        "id": 8,
+        "name": "Office Desk",
+        "price": 149.99,
+        "category": "Furniture",
+        "description": "Sturdy office desk with built-in cable management."
+      },
+      {
+        "id": 9,
+        "name": "Yoga Mat",
+        "price": 29.99,
+        "category": "Fitness",
+        "description": "Eco-friendly yoga mat with non-slip surface."
+      },
+      {
+        "id": 10,
+        "name": "Dumbbell Set",
+        "price": 79.99,
+        "category": "Fitness",
+        "description": "Adjustable dumbbell set with storage rack."
+      },
+      {
+        "id": 11,
+        "name": "Running Shoes",
+        "price": 99.99,
+        "category": "Fitness",
+        "description": "Lightweight running shoes with breathable mesh."
+      },
+      {
+        "id": 12,
+        "name": "Protein Shaker",
+        "price": 9.99,
+        "category": "Fitness",
+        "description": "BPA-free protein shaker bottle with mixing ball."
+      },
+      {
+        "id": 13,
+        "name": "Coffee Maker",
+        "price": 49.99,
+        "category": "Home Appliances",
+        "description": "Programmable coffee maker with auto-shutoff."
+      },
+      {
+        "id": 14,
+        "name": "Air Fryer",
+        "price": 89.99,
+        "category": "Home Appliances",
+        "description": "Compact air fryer with digital controls."
+      },
+      {
+        "id": 15,
+        "name": "Blender",
+        "price": 59.99,
+        "category": "Home Appliances",
+        "description": "High-speed blender with 1000W motor."
+      },
+      {
+        "id": 16,
+        "name": "Electric Kettle",
+        "price": 29.99,
+        "category": "Home Appliances",
+        "description": "Stainless steel electric kettle with auto-shutoff."
+      },
+      {
+        "id": 17,
+        "name": "Backpack",
+        "price": 49.99,
+        "category": "Accessories",
+        "description": "Water-resistant backpack with USB charging port."
+      },
+      {
+        "id": 18,
+        "name": "Sunglasses",
+        "price": 19.99,
+        "category": "Accessories",
+        "description": "UV-protection sunglasses with polarized lenses."
+      },
+      {
+        "id": 19,
+        "name": "Wallet",
+        "price": 29.99,
+        "category": "Accessories",
+        "description": "Genuine leather wallet with RFID protection."
+      },
+      {
+        "id": 20,
+        "name": "Smartphone Stand",
+        "price": 14.99,
+        "category": "Accessories",
+        "description": "Adjustable smartphone stand for desk or table."
+      }
+    ] ,
+    
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "L2o2P@example.com",
+        "password": "password123"
+      },
+      {
+        "id": 2,  
+        "name": "Jane Smith",
+        "email": "lM9Bt@example.com",
+        "password": "password456"
+      }
+    ]
+  }
+  

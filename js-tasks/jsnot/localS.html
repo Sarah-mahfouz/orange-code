@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>local Storage Example</h1>
+        <label for="datainput"> Enter some Data:</label>
+        <input type="text" id="datainput" placeholder="Enter some text">
+        <button onclick="saveToLocalStorage()">save to local</button>
+        <button onclick="loadToLocalStorage()">load to local</button>
+        <button onclick="removeFRomLocalStorage()">Delete</button>
+
+        <p id="output"></p>
+
+    <script>
+
+
+
+function saveToLocalStorage(){
+
+    const input = document.getElementById('datainput').value;
+    localStorage.setItem('myData',input);
+    alert("Data is saved")
+
+}
+
+
+function loadToLocalStorage(){
+ const storeData = localStorage.getItem('myData');
+
+ const output = document.getElementById('output');
+     if(storeData){
+        output.textContent = "storeData = " + storeData;
+
+     }
+     else{
+        output.textContent = "No Data Found";
+
+     }
+
+
+}
+
+
+function removeFRomLocalStorage(){
+
+    localStorage.removeItem('myData');
+    alert("Data is removed");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let user ={
+        //     name: "Alaa",
+        //     age: 27,
+        //     job:"Full Altra pro max stack"
+        // };
+
+
+        // localStorage.setItem("user",JSON.stringify(user));
+
+        // let stroredUser = JSON.parse(localStorage.getItem("user"));
+
+
+        // console.log("user Name:", stroredUser.name);
+        // console.log("user Name:", stroredUser.age);
+        // console.log("user Name:", stroredUser.job);
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+.a{
+    color: red;
+}
+.b{
+    color: green;
+}
+.c{
+    color: blue;
+}
+.d{
+    color: yellow;
+}
+.color{
+    color: rgba(10, 95, 95, 0.884);
+}
+.pink{
+    color: pink;
+}
+.yellow{
+    color: yellow;
+    font-size: 3rem;
+}
+.mh{
+    color: yellow;
+    background-color: blue;
+    padding:20px 110px 20px 20px;
+    display: inline-block;
+}
+
+.bo{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px 5px 5px 15px;
+}
+.sp{
+    color: red;
+}
+
+.im{
+    width: 200px;
+    height: 100px;
+}
+
+.gre{
+ color: green;
+}
+
+#four{
+    display: inline-block;
+    margin-left: 90px;
+}
+#pfour{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+   padding-right: 150px;
+}
+#imfour{
+   background-image:  url("../imges/2.jpg");
+   padding-left: 20px;
+
+}
+
+#mar{
+    margin-top: 0px;
+}
+ .rep{
+    background-image: url(../imges/3.jpg);
+    background-repeat: repeat-y;
+    height: 800px;
+ }
+
+ .p1{
+    color: rgba(48, 145, 219, 0.578);
+ }
+.p2{
+    color: rgba(137, 43, 226, 0.447);
+}
+#p2{
+    color: green;
+}
+#p4{
+    color: red;
+}
+.h{
+    background-color: aquamarine;
+    padding-bottom: 60px;
+    padding-top: 5px;
+}
+.h1{
+    background-color: whitesmoke;
+    color: red;
+    margin: 10px ;
+    padding: 10px;
+}
+.h2{
+    background-image: url(../imges/4.jpg);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.h3{
+    background-image: url(../imges/6.jpg);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+#cs{
+    font-family:fantasy;
+    font-weight: bold;
+    color: rgb(4, 66, 4);
+}
+.cs1{
+    color: aqua;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cs2{
+    background-color: aqua;
+    color: goldenrod;
+
+}
+
+.bac{
+    background-color: rgba(95, 158, 160, 0.374);
+}
+
+.r{
+    color: rgb(24, 24, 152);
+}
+.n{
+    color: red;
+}
+.m{
+    background-color: rgba(255, 192, 203, 0.626);
+    text-align: center;
+}
+
+.cop{
+    color: blue;
+}
+.i1{
+    background-color:deepskyblue;
+    color: white;
+    padding: 10px;
+}
+
+#i2{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+}
+
+
+.i3{
+    background-color:orange;
+    color: white;
+    padding: 10px;
+}
+
+.for{
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 10px;
+    width: 300px;
+    
+
+   
+
+}
+.cap{
+    background-color: rgba(165, 42, 42, 0.836);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding:10px;
+    margin-top: 0;
+}
+#sub{
+    border: 1.5px solid black;
+    background-color: rgb(247, 247, 15);
+    align-items: center;
+    width: 298px;
+    height: 35px;
+}
+.for1{
+    border: none;
+}
+
+
+.cap{
+    border: 1px solid transparent;
+}
+.q{
+    border: 1px solid transparent;
+}
+
+.ele{
+    text-align: center;
+    padding: 20 px;
+    background-image: linear-gradient( 185.5deg,#1f1f7a 0%,#80005a 50%,#d4ff00 50%,#05c605 100%);
+    width: 1240px;
+    height: 70px;
+    padding-top: 50px;
+    
+}
+.t1{
+    background-color: bisque;
+    color: red;
+    padding: 10px;
+}
+.q{
+    background-color: aqua;
+}
+
+.tw{
+    background-image: url(../imges/7.jpg), url(../imges/8.jpg);
+    background-repeat: repeat-y,repeat-x;
+   height: 900px;
+    
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table , tr ,th {
+        border: 2px solid black;
+        border-collapse: collapse;
+       } 
+
+
+       tbody{
+        border: 2px solid black;
+        border-collapse: collapse;
+       }
+
+    </style>
+</head>
+<body>
+    <table id="smartphonetable">
+        <thead>
+            <tr>
+                <th>ID</th> 
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+
+
+    </table>
+
+    <script>
+        fetch('smartphone.json')
+        .then(response => response.json())
+        .then(data =>{
+            const tableBody = document.getElementById('tableBody');
+            data.forEach(phone => {
+                tableBody.innerHTML += `
+                <tr>
+                    <td>${phone.id}</td>
+                    <td>${phone.brand}</td>
+                    <td>${phone.model}</td>
+                    <td>${phone.price}</td>
+                </tr>    
+                `;
+                
+            })
+
+            .catch(error=>console.error('Error',error));
+        })
+
+    </script>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

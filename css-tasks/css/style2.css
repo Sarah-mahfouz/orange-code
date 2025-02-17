@@ -1,0 +1,127 @@
+#ov{
+    text-decoration: overline green;
+}
+
+#thr{
+    text-decoration:line-through gray ;
+}
+#un{
+    text-decoration: underline purple;
+}
+#ou{
+    text-decoration: overline underline blue;
+}
+#u{
+    text-transform: uppercase;
+}
+#l{
+    text-transform: lowercase;
+}
+#c{
+    text-transform: capitalize;
+}
+
+.ri{
+    text-align: right;
+}
+.ce{
+    text-align: center;
+}
+.li{
+    text-align: left;
+}
+.a1{
+font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+font-family: Arial, Helvetica, sans-serif;
+}
+.a3{
+font-family: "Trirong",serif;
+}
+
+.p1{
+    text-align: center;
+    font-weight: bold;
+    
+}
+#o1{
+opacity: 100%;
+background-color: red;
+padding: 20px;
+}
+#o2{
+    opacity: 50%;
+    background-color: red;
+    padding: 20px;
+}
+#o3{
+opacity: 25%;
+background-color: red;
+padding: 20px;
+}
+#o4{
+opacity: 10%;
+background-color: red;
+padding: 20px;
+}
+
+.ov1{
+  border: 1px solid black;
+  height: 50px;
+  overflow: visible;
+  background-color: orangered;
+}
+
+.ov2{
+    border: 1px solid black;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+.ov3{
+    border: 1px solid black;
+    background-color: rgb(0, 217, 255);
+    overflow: scroll;
+    height: 100px;
+}
+.ov4{
+    border: 1px solid black;
+    background-color: rgb(195, 43, 226);
+    overflow: auto;
+    height: 90px;
+}
+.ov5{
+    border: 1px solid black;
+    background-color: green;
+    overflow-x: hidden;
+  overflow-y: scroll;
+}
+.la{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+}
+.ly{
+    border: 1px solid black;
+    background-color: black;
+    color: rgba(209, 209, 56, 0.626);
+    overflow: scroll;
+    width: 400px;
+    height: 150px;
+}
+
+.d1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: red;
+
+}
+.ui{
+    opacity: 0.8;
+}
+.ui1{
+    opacity: 0.3;
+}

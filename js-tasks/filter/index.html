@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON</title>
+</head>
+<body>
+  
+  <form id="filter">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <select name="category" id="category" title="category">
+      <option value="All">All</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Furniture">Furniture</option>
+      <option value="Fitness">Fitness</option>
+      <option value="Home Appliances">Home Appliances</option>
+    </select>
+    <input type="submit" value="Filter">
+  </form>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>price</th>
+        <th>category</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+      
+    </tbody>
+  </table>
+  
+  <script src="main.js"></script>
+</body>
+</html>

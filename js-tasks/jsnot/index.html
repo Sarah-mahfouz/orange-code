@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e61ba0b5d3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: whitesmoke;
+            color: pink;
+            border: 1px solid whitesmoke;
+            text-align: center;
+            align-items: center;
+            margin-left: 8%;
+            width: 80%;
+            height: 50px;
+        }
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            }
+
+
+.actions {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button, input, select {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button {
+  background-color:pink;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: pink;
+  transform: scale(1.05);
+}
+
+input[type="color"] {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+textarea {
+  margin: 20px auto;
+  padding: 10px;
+  width: 60%;
+  height: 400px;
+  font-size: 20px;
+  border: 1px solid pink;
+  border-radius: 10px;
+  outline: none;
+  background: white;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+textarea:focus {
+  border-color: pink;
+  box-shadow: 0px 0px 10px pink;
+}
+
+select {
+  border: 1px solid pink;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dom Task</h1>
+    </header>
+<div class="actions">
+    <button class="bold">Bold</button>
+    <button class="itlaic">Italic</button>
+    <button class="start"><i class="fa-solid fa-align-left"></i></button>
+    <button class="center"><i class="fa-solid fa-align-center"></i></button>
+    <button class="end"><i class="fa-solid fa-align-right"></i></button>
+    <button class="upper">Upper Case</button>
+    <button class="lower">Lower Case</button>
+    <button class="cap">Capitalize</button>
+    <button class="clear" type="reset">CLear Text</button>
+    <button  class="color"><input type="color"><i class="fa-solid fa-paintbrush"></i></button>
+    <button class="bgcolor"><input type="color"> <i class="fa-solid fa-fill"></i></button>
+    <button class="fontsize"  > <input type="number" name="" id="" value="47" min="0" max="100"> <i class="fa-solid fa-text-height"></i></button>
+        <button class="fontfamily">
+        <select name="" id="">
+            <option value="Georgia">Georgia</option>
+            <option value="arial">arial</option>
+            <option value="Times">Times new Roman</option>
+        </select>
+        
+    </option>
+    </button>
+    <button><i class="fa-solid fa-print"></i> Print Text</button>
+</div>
+    <div class="text">
+        <textarea name="text" id="text" title="Enter your text" placeholder="Enter your text"></textarea>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
